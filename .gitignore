@@ -1,0 +1,33 @@
+# Ignore all raw data and temp folders
+data/fastq/
+data/ref/
+data/sra/
+data/sra_cache/
+data/sra_tmp/
+
+# Ignore alignment and big NGS files
+results/bam/
+
+# Generic NGS-heavy formats (just in case)
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+
+# Large reference/index formats
+*.fa
+*.fa.gz
+*.fai
+*.bt2
+*.bt2l
+
+# SnpEff databases if you ever copy them here
+data/snpeff/
+
+# Jupyter / Python clutter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
